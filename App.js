@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>second project git test</Text>
+      <Text>second project git test?????plz</Text>
     </View>
   );
 }
