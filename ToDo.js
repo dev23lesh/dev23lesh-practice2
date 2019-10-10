@@ -12,9 +12,8 @@ export default class ToDo extends React.Component {
 }
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#F23657',
-    alignItems: 'center',
-    
+      color:"#000",
+      backgroundColor: '#FFF',
+      alignItems: 'center',
   }
 });
