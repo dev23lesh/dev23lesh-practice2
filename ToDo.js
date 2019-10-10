@@ -6,6 +6,9 @@ export default class ToDo extends React.Component {
     return (
       <View style={styles.container}>
           <Text>Hello! i'm from TODO haha</Text>
+          <Text>Hello! i'm from TODO haha</Text>
+          <Text>Hello! i'm from TODO haha</Text>
+          <Text>Hello! i'm from TODO haha</Text>
       </View>
     );
   }
