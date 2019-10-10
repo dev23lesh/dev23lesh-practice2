@@ -8,7 +8,7 @@ export default class App extends React.Component {
   state = {
     newToDo:""
   }
-  render(){
+  render(){ 
     const {newToDo} = this.state;
     return (
       <View style={styles.container}>
