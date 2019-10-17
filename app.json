@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "kawaiToDoApp",
+    "name": "할일목록",
     "slug": "secondproject",
     "privacy": "public",
     "sdkVersion": "35.0.0",
@@ -11,24 +11,34 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon2.png",
+    "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash2.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#F23657"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
-      "assets/*"
+      "assets/**/*"
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier":"com.dev23lesh.kawaitodo"
+      "bundleIdentifier": "com.dev23lesh.kawaitodo"
     },
-    "android":{
-      "package":"com.dev23lesh.kawaitodo"
-    }
+    "android": {
+      "splash": {
+        "resizeMode": "cover",
+        "backgroundColor": "#F23657",
+        "mdpi": "./assets/splash.png",
+        "hdpi": "./assets/splash.png",
+        "xhdpi": "./assets/splash.png",
+        "xxhdpi": "./assets/splash.png",
+        "xxxhdpi": "./assets/splash.png"
+      },
+      "package": "com.dev23lesh.kawaitodo"
+    },
+    "description": ""
   }
 }

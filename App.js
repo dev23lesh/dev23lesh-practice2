@@ -17,14 +17,14 @@ export default class App extends React.Component {
   }
   render(){ 
     const {newToDo,loadedToDos,toDos} = this.state;
-    console.log(toDos);
+    console.log("todos loading..:"+toDos);
     if(!loadedToDos){ 
       return <AppLoading />
     }
     return (
       <View style={styles.container}>
         <StatusBar barStyle="light-content" />
-        <Text style={styles.title}>Kawai To Do</Text>
+        <Text style={styles.title}>오늘의할일 목록</Text>
         <View style={styles.card}>
           <TextInput 
             style={styles.input} 
@@ -173,11 +173,11 @@ const styles = StyleSheet.create({
     
   },
   title:{
-    color:"#FFF",
-    fontSize:30,
-    marginTop:50,
-    marginBottom:30,
-    fontWeight:"200",
+    color:"#FEF",
+    fontSize:24,
+    marginTop:40,
+    marginBottom:20,
+    fontWeight:"300",
   },
   card:{
     backgroundColor:"#FFF",
